@@ -1,0 +1,6 @@
+services:
+	- App\Router\RouterFactory::createRouter
+	- App\Model\World
+
+extensions:
+	- NasExt\Forms\DependentExtension
