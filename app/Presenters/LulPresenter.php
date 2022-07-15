@@ -28,8 +28,10 @@ class LulPresenter extends Nette\Application\UI\Presenter
             $items[$id] = $this->world->getCities($id);
         }
         bdump($items);
-        //lalala la
+        //quick fix na bla bla bu bu
         //uu ii uu aaa
+        //bla bla
+        //no ne no
         $city = $form->addMultiSelect('city', 'Město:')
             //->setHtmlAttribute('data-depends', $country->getHtmlName())
             //->setHtmlAttribute('data-items', $items);
