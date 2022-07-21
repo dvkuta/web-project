@@ -13,7 +13,7 @@ class TruePresenter extends Nette\Application\UI\Presenter
 {
 
     public function renderDefault(){
-         $this->template->helloMessage = new Nette\Utils\DateTime();
+         $this->template->helloMessage = "Hello world";
          //aa//bb//cc
     }
 
